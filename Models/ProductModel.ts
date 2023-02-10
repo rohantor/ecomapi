@@ -15,7 +15,7 @@ const CartSchema = new mongoose.Schema({
   price: {type:Number, required: true},
   description: {type:String, required: true},
   image: {type:String, required: true},
-  wishListed: {type:Boolean, required: true},
+  wishListed: {type:Boolean, required: false},
 })
 
 
